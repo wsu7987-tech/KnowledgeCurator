@@ -1,0 +1,11 @@
+{
+  "name": "knowledge-curator-workspace",
+  "private": true,
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "dev": "pnpm --filter desktop dev",
+    "build": "pnpm --filter desktop build",
+    "test": "pnpm --filter desktop test",
+    "test:run": "pnpm --filter desktop test:run"
+  }
+}
